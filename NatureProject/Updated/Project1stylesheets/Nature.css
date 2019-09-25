@@ -73,13 +73,43 @@ h2{
   border: none;
   cursor: pointer;
   overflow: hidden;
-  outline: none;
-  left: 220px;
-  top: 320px;
+  outline: none;;
   margin: auto;
   width: 100%;
   height: 100%;
   z-index: 1001;
+}
+.button1:hover .dropdown-content
+{
+  display: block;
+}
+.button2:hover .dropdown-content
+{
+  display: block;
+}
+.button3:hover .dropdown-content
+{
+  display: block;
+}
+.button4:hover .dropdown-content
+{
+  display: block;
+}
+.button5:hover .dropdown-content
+{
+  display: block;
+}
+.button6:hover .dropdown-content
+{
+  display: block;
+}
+.button7:hover .dropdown-content
+{
+  display: block;
+}
+.button8:hover .dropdown-content
+{
+  display: block;
 }
 .map
 {
@@ -88,7 +118,7 @@ h2{
   width: 966px;
   position: relative;
 }
-.button1
+.container1
 {
   margin: auto;
   width: 190px;
@@ -96,7 +126,7 @@ h2{
   display: flex;
   float: left;
 }
-.button2
+.container2
 {
   margin: auto;
   width: 120px;
@@ -104,7 +134,7 @@ h2{
   display: flex;
   float: left;
 }
-.button3
+.container3
 {
   margin: auto;
   width: 120px;
@@ -112,7 +142,7 @@ h2{
   display: flex;
   float: left;
 }
-.button4
+.container4
 {
   margin: auto;
   width: 110px;
@@ -120,7 +150,7 @@ h2{
   display: flex;
   float: left;
 }
-.button5
+.container5
 {
   margin: auto;
   width: 105px;
@@ -128,7 +158,7 @@ h2{
   display: flex;
   float: left;
 }
-.button6
+.container6
 {
   margin: auto;
   width: 120px;
@@ -136,7 +166,7 @@ h2{
   display: flex;
   float: left;
 }
-.button7
+.container7
 {
   margin: auto;
   width: 92px;
@@ -144,7 +174,7 @@ h2{
   display: flex;
   float: left;
 }
-.button8
+.container8
 {
   margin: auto;
   width: 85px;
@@ -251,4 +281,101 @@ h2{
   top: 330px;
   left: 825px;
   display: block;
+}
+.button1
+ {
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   top: 147px;
+   left: 117px;
+   display: block;
+   z-index: 1002;
+ }
+.button2
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 447px;
+  left: 275px;
+  display: block;
+  z-index: 1002;
+}
+.button3
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 295px;
+  left: 300px;
+  display: block;
+  z-index: 1002;
+}
+.button4
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  display: block;
+  z-index: 1002;
+}
+.button5
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 210px;
+  left: 533px;
+  display: block;
+  z-index: 1002;
+}
+.button6
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 510px;
+  left: 647px;
+  display: block;
+  z-index: 1002;
+}
+.button7
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 278px;
+  left: 805px;
+  display: block;
+  z-index: 1002;
+}
+.button8
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 357px;
+  left: 855px;
+  display: block;
+  z-index: 1002;
+}
+.dropdown-content
+{
+  display: none;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: #f0f7fb;
+  border: solid 1px #3498db;
+  border-radius: 6px;
+  line-height: 18px;
+  padding: 12px;;
+  z-index: 1003;
+  min-width: 150px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  overflow: auto;
+  font-family: Garamond;
+  font-weight: bold;
 }
