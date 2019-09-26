@@ -1,0 +1,381 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+  background-image: linear-gradient(gold, pink);
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+h2{
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row, .row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  width: 987px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.clearButton
+{
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  z-index: 1001;
+}
+.button1:hover .dropdown-content
+{
+  display: block;
+}
+.button2:hover .dropdown-content
+{
+  display: block;
+}
+.button3:hover .dropdown-content
+{
+  display: block;
+}
+.button4:hover .dropdown-content
+{
+  display: block;
+}
+.button5:hover .dropdown-content
+{
+  display: block;
+}
+.button6:hover .dropdown-content
+{
+  display: block;
+}
+.button7:hover .dropdown-content
+{
+  display: block;
+}
+.button8:hover .dropdown-content
+{
+  display: block;
+}
+.map
+{
+  background-image: url("gus.jpg");
+  height: 635px;
+  width: 966px;
+  position: relative;
+}
+.container1
+{
+  margin: auto;
+  width: 190px;
+  height: 100%;
+  display: flex;
+  float: left;
+}
+.container2
+{
+  margin: auto;
+  width: 120px;
+  height: 100%;
+  display: flex;
+  float: left;
+}
+.container3
+{
+  margin: auto;
+  width: 120px;
+  height: 100%;
+  display: flex;
+  float: left;
+}
+.container4
+{
+  margin: auto;
+  width: 110px;
+  height: 100%;
+  display: flex;
+  float: left;
+}
+.container5
+{
+  margin: auto;
+  width: 105px;
+  height: 100%;
+  display: flex;
+  float: left;
+}
+.container6
+{
+  margin: auto;
+  width: 120px;
+  height: 100%;
+  display: flex;
+  float: left;
+}
+.container7
+{
+  margin: auto;
+  width: 92px;
+  height: 100%;
+  display: flex;
+  float: left;
+}
+.container8
+{
+  margin: auto;
+  width: 85px;
+  height: 100%;
+  display: flex;
+  float: left;
+}
+.pin {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 38px;
+  left: 38px;
+  background: red;
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+.pin-effect {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  display: block;
+  background: rgba(5, 124, 255, 0.6);
+  border-radius: 50%;
+  opacity: 0;
+  animation: pulsate 2400ms ease-out infinite;
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+.marker1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 225px;
+  left: 230px;
+  display: block;
+}
+.marker2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 405px;
+  left: 300px;
+  display: block;
+}
+.marker3 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 320px;
+  left: 390px;
+  display: block;
+}
+.marker4 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 475px;
+  left: 442px;
+  display: block;
+}
+.marker5 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 360px;
+  display: block;
+}
+.marker6 {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 500px;
+   left: 600px;
+   display: block;
+ }
+.marker7 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 271px;
+  left: 645px;
+  display: block;
+}
+.marker8 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 210px;
+  left: 40px;
+  display: block;
+}
+.button1
+ {
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   top: 239px;
+   left: 267px;
+   display: block;
+   z-index: 1002;
+ }
+.button2
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 410px;
+  left: 345px;
+  display: block;
+  z-index: 1002;
+}
+.button3
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 330px;
+  left: 420px;
+  display: block;
+  z-index: 1002;
+}
+.button4
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 475px;
+  left: 490px;
+  display: block;
+  z-index: 1002;
+}
+.button5
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 210px;
+  left: 400px;
+  display: block;
+  z-index: 1002;
+}
+.button6
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 510px;
+  left: 647px;
+  display: block;
+  z-index: 1002;
+}
+.button7
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 278px;
+  left: 690px;
+  display: block;
+  z-index: 1002;
+}
+.button8
+{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 210px;
+  left: 70px;
+  display: block;
+  z-index: 1002;
+}
+.dropdown-content
+{
+  display: none;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: #f0f7fb;
+  border: solid 1px #3498db;
+  border-radius: 6px;
+  line-height: 18px;
+  padding: 12px;;
+  z-index: 1003;
+  min-width: 150px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  overflow: auto;
+  font-family: Garamond;
+  font-weight: bold;
+}
